@@ -26,4 +26,5 @@ data class MarsPhoto(
         val id: String,
         // used to map img_src from the JSON to imgSrcUrl in our class
         @Json(name = "thumbnail") val imgSrcUrl: String
+
 )
